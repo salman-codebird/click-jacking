@@ -14,7 +14,7 @@ echo "<!DOCTYPE html>
 </head>
 <body>
 	<iframe src="$url" width="1900" height="700"></iframe>
-	<h2>If you see web page, It is vulnerable$ to click jacking!!!</h2>
+	<h2>If you see web page, It is vulnerable to click jacking!!!</h2>
 </body>
-</html>" >>temp.html
+</html>" >temp.html
 firefox temp.html
