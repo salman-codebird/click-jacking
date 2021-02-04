@@ -4,7 +4,6 @@ blue=$(tput setaf 4;)
 reset=$(tput sgr 0;)
 echo -e "Welcome ${blue}$USER${reset}\n"
 read -p "Please enter url to check click jacking: " url
-rm temp.html
 touch temp.html
 echo "<!DOCTYPE html>
 <head>
